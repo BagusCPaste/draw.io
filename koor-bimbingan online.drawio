@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
   <diagram name="Page-1" id="jc--x8PHUx1x7S_psfq3">
-    <mxGraphModel>
+    <mxGraphModel dx="1763" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="100" width="590" height="1510" as="geometry">
+            <mxRectangle x="120" y="90" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-9" value="Dashboard" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="50" y="20" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-12" value="Periode Ajaran" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="50" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-13" value="Pengumuman" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="50" y="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-14" value="Plotting Dosen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="60" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-15" value="Data Mahasiswa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="50" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-20" value="Master Dosen Pembimbing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="60" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-21" value="Kouta Dosen Pembimbing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="60" y="460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-22" value="Pengajuan Mahasiswa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="80" y="550" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-23" value="Rekap Logbook" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="80" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-24" value="Monitoring Sidang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="80" y="760" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-25" value="Log Dosen Pembimbing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="80" y="860" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-26" value="Log Mahasiswa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="80" y="960" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-30" value="Dashboard" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="lQGsJXJGl0mCZdi2ilFg-2">
+          <mxGeometry x="60" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-3" value="koordinator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="720" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQGsJXJGl0mCZdi2ilFg-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="660" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
