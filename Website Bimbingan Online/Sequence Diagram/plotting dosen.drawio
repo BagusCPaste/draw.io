@@ -1,21 +1,24 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="wxZsn5L4dT2p05QUr919">
-    <mxGraphModel dx="1500" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="o4S50jq_KAitif_074QC-1" value="Halaman Pengumuman" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-1" value="Halaman Plotting Dosen" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="215" y="170" width="100" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o4S50jq_KAitif_074QC-1">
+        <mxCell id="o4S50jq_KAitif_074QC-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="o4S50jq_KAitif_074QC-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-3" value="Pengumuman()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="o4S50jq_KAitif_074QC-1" target="o4S50jq_KAitif_074QC-2">
+        <mxCell id="o4S50jq_KAitif_074QC-3" value="PlottingDosen()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="o4S50jq_KAitif_074QC-1" target="o4S50jq_KAitif_074QC-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-70" y="70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-4" value="TambahPengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-2" target="o4S50jq_KAitif_074QC-42">
+        <mxCell id="CDM0Dyr_BMv-PykYmC-s-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o4S50jq_KAitif_074QC-1">
+          <mxGeometry x="55" y="190" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o4S50jq_KAitif_074QC-4" value="SearchDosen()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="o4S50jq_KAitif_074QC-2" target="o4S50jq_KAitif_074QC-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="260" as="sourcePoint" />
             <Array as="points">
@@ -23,54 +26,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-42" target="o4S50jq_KAitif_074QC-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="335" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="365" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-6" value="Koordinator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-6" value="Koordinator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="105" y="210" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-7" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-7" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="545" y="150" width="70" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-8" value="Control Object" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="o4S50jq_KAitif_074QC-7">
+        <mxCell id="o4S50jq_KAitif_074QC-8" value="Control" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="o4S50jq_KAitif_074QC-7" vertex="1">
           <mxGeometry width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-9" value="" style="group" vertex="1" connectable="0" parent="o4S50jq_KAitif_074QC-7">
+        <mxCell id="o4S50jq_KAitif_074QC-9" value="" style="group" parent="o4S50jq_KAitif_074QC-7" vertex="1" connectable="0">
           <mxGeometry x="30" y="80" width="10" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-10" value="" style="group" vertex="1" connectable="0" parent="o4S50jq_KAitif_074QC-9">
+        <mxCell id="o4S50jq_KAitif_074QC-10" value="" style="group" parent="o4S50jq_KAitif_074QC-9" vertex="1" connectable="0">
           <mxGeometry y="40" width="10" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o4S50jq_KAitif_074QC-10">
+        <mxCell id="o4S50jq_KAitif_074QC-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="o4S50jq_KAitif_074QC-10" vertex="1">
           <mxGeometry width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="o4S50jq_KAitif_074QC-10" target="o4S50jq_KAitif_074QC-11">
+        <mxCell id="o4S50jq_KAitif_074QC-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="o4S50jq_KAitif_074QC-10" target="o4S50jq_KAitif_074QC-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5" y="250" as="sourcePoint" />
             <mxPoint x="4.5" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="o4S50jq_KAitif_074QC-9">
+        <mxCell id="o4S50jq_KAitif_074QC-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="o4S50jq_KAitif_074QC-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5" y="40" as="sourcePoint" />
             <mxPoint x="4.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-14" value="FromTambah()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-14" value="PilihMahasiswa()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="272" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="523" y="280" />
+              <mxPoint x="523" y="272" />
             </Array>
-            <mxPoint x="575" y="280" as="targetPoint" />
+            <mxPoint x="575" y="272" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-15" value="tambahData()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-11" target="o4S50jq_KAitif_074QC-29">
+        <mxCell id="o4S50jq_KAitif_074QC-15" value="UpdateData()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="o4S50jq_KAitif_074QC-11" target="o4S50jq_KAitif_074QC-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="340" as="sourcePoint" />
             <Array as="points">
@@ -79,16 +74,16 @@
             <mxPoint x="715" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-16" value="Database" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-16" value="Database" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="665" y="150" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="705" y="320" as="sourcePoint" />
             <mxPoint x="704.5" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-18" value="Batal()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" target="o4S50jq_KAitif_074QC-43">
+        <mxCell id="o4S50jq_KAitif_074QC-18" value="DataPlotting()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" target="o4S50jq_KAitif_074QC-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="380" as="sourcePoint" />
             <Array as="points">
@@ -97,10 +92,10 @@
             <mxPoint x="484.92857142857144" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="260" y="490" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-20" value="ViewPengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-20" value="ViewPengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="500" as="sourcePoint" />
             <Array as="points">
@@ -109,55 +104,55 @@
             <mxPoint x="440" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="440" y="500" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-22" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-22" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="575" y="510" width="10" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o4S50jq_KAitif_074QC-22">
+        <mxCell id="o4S50jq_KAitif_074QC-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="o4S50jq_KAitif_074QC-22" vertex="1">
           <mxGeometry width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-24" value="" style="group" vertex="1" connectable="0" parent="o4S50jq_KAitif_074QC-22">
+        <mxCell id="o4S50jq_KAitif_074QC-24" value="" style="group" parent="o4S50jq_KAitif_074QC-22" vertex="1" connectable="0">
           <mxGeometry y="135" width="10" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o4S50jq_KAitif_074QC-24">
+        <mxCell id="o4S50jq_KAitif_074QC-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="o4S50jq_KAitif_074QC-24" vertex="1">
           <mxGeometry y="61.30434782608696" width="10" height="102.17391304347827" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="o4S50jq_KAitif_074QC-24" target="o4S50jq_KAitif_074QC-25">
+        <mxCell id="o4S50jq_KAitif_074QC-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="o4S50jq_KAitif_074QC-24" target="o4S50jq_KAitif_074QC-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4.730000000000018" y="235.00000000000003" as="sourcePoint" />
             <mxPoint x="4.730000000000018" y="204.34782608695653" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="o4S50jq_KAitif_074QC-22" source="o4S50jq_KAitif_074QC-25" target="o4S50jq_KAitif_074QC-23">
+        <mxCell id="o4S50jq_KAitif_074QC-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="o4S50jq_KAitif_074QC-22" source="o4S50jq_KAitif_074QC-25" target="o4S50jq_KAitif_074QC-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4.779999999999973" y="185" as="sourcePoint" />
             <mxPoint x="5" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-30" target="o4S50jq_KAitif_074QC-29">
+        <mxCell id="o4S50jq_KAitif_074QC-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="o4S50jq_KAitif_074QC-30" target="o4S50jq_KAitif_074QC-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="705" y="520" as="sourcePoint" />
             <mxPoint x="704.5" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="700" y="320" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="700" y="527" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="260" y="690" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-31" target="o4S50jq_KAitif_074QC-19">
+        <mxCell id="o4S50jq_KAitif_074QC-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="o4S50jq_KAitif_074QC-31" target="o4S50jq_KAitif_074QC-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="264.78" y="690" as="sourcePoint" />
             <mxPoint x="264.78" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-33" value="DeletePengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-33" value="DeletePengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="700" as="sourcePoint" />
             <Array as="points">
@@ -166,64 +161,64 @@
             <mxPoint x="440" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="o4S50jq_KAitif_074QC-31">
+        <mxCell id="o4S50jq_KAitif_074QC-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="o4S50jq_KAitif_074QC-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="265" y="880" as="sourcePoint" />
             <mxPoint x="264.73" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="440" y="700" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-35" target="o4S50jq_KAitif_074QC-21">
+        <mxCell id="o4S50jq_KAitif_074QC-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="o4S50jq_KAitif_074QC-35" target="o4S50jq_KAitif_074QC-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="444.78" y="700" as="sourcePoint" />
             <mxPoint x="445" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="o4S50jq_KAitif_074QC-35">
+        <mxCell id="o4S50jq_KAitif_074QC-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="o4S50jq_KAitif_074QC-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="444.73" y="880" as="sourcePoint" />
             <mxPoint x="444.73" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="700" y="720" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-38" target="o4S50jq_KAitif_074QC-30">
+        <mxCell id="o4S50jq_KAitif_074QC-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="o4S50jq_KAitif_074QC-38" target="o4S50jq_KAitif_074QC-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="704.78" y="695" as="sourcePoint" />
             <mxPoint x="705" y="645" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="o4S50jq_KAitif_074QC-38">
+        <mxCell id="o4S50jq_KAitif_074QC-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="o4S50jq_KAitif_074QC-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="704.73" y="875" as="sourcePoint" />
             <mxPoint x="704.73" y="845" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-41" value="Button" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-41" value="Plotting Dosen" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="395" y="160" width="85" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="440" y="250" width="10" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="450" y="365" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-21" target="o4S50jq_KAitif_074QC-42">
+        <mxCell id="o4S50jq_KAitif_074QC-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="o4S50jq_KAitif_074QC-21" target="o4S50jq_KAitif_074QC-42" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="444.58000000000004" y="480" as="sourcePoint" />
             <mxPoint x="444.58000000000004" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.575;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o4S50jq_KAitif_074QC-42" target="o4S50jq_KAitif_074QC-41">
+        <mxCell id="o4S50jq_KAitif_074QC-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.575;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="o4S50jq_KAitif_074QC-42" target="o4S50jq_KAitif_074QC-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="444.58" y="240" as="sourcePoint" />
             <mxPoint x="445" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-46" value="Show Data()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" target="o4S50jq_KAitif_074QC-47">
+        <mxCell id="o4S50jq_KAitif_074QC-46" value="Show Data()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" target="o4S50jq_KAitif_074QC-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="600" as="sourcePoint" />
             <Array as="points">
@@ -232,10 +227,10 @@
             <mxPoint x="484.92857142857144" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="450" y="585" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-48" value="Batal()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="o4S50jq_KAitif_074QC-49">
+        <mxCell id="o4S50jq_KAitif_074QC-48" value="Batal()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="o4S50jq_KAitif_074QC-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="575" y="795" as="sourcePoint" />
             <Array as="points">
@@ -244,10 +239,10 @@
             <mxPoint x="484.92857142857144" y="795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="450" y="780" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-50" value="DataPengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="o4S50jq_KAitif_074QC-51">
+        <mxCell id="o4S50jq_KAitif_074QC-50" value="DataPengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="o4S50jq_KAitif_074QC-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="597" as="sourcePoint" />
             <Array as="points">
@@ -256,10 +251,10 @@
             <mxPoint x="619.9285714285714" y="597" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="585" y="582" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-52" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-52" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="640" as="targetPoint" />
             <Array as="points">
@@ -268,7 +263,7 @@
             <mxPoint x="440" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-53" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-53" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="820" as="targetPoint" />
             <Array as="points">
@@ -277,7 +272,7 @@
             <mxPoint x="440" y="820" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-54" value="Validasi()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-54" value="Validasi()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="584" y="540" as="sourcePoint" />
             <Array as="points">
@@ -286,7 +281,7 @@
             <mxPoint x="699" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-55" value="GetPengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-55" value="GetPengumuman()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="520" as="sourcePoint" />
             <Array as="points">
@@ -295,7 +290,7 @@
             <mxPoint x="575" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-56" value="Validasi()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-56" value="Validasi()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="585" y="722" as="sourcePoint" />
             <Array as="points">
@@ -304,13 +299,43 @@
             <mxPoint x="700" y="722" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4S50jq_KAitif_074QC-57" value="DeleteData()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="o4S50jq_KAitif_074QC-57" value="DeleteData()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="710" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="523" y="710" />
             </Array>
             <mxPoint x="575" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDM0Dyr_BMv-PykYmC-s-1" value="PilihSemuaMahasiswa()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="523" y="320" />
+            </Array>
+            <mxPoint x="575" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDM0Dyr_BMv-PykYmC-s-4" value="DataPlotting()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="CDM0Dyr_BMv-PykYmC-s-5" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="395" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="670" y="395" />
+            </Array>
+            <mxPoint x="619.9285714285714" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDM0Dyr_BMv-PykYmC-s-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="585" y="380" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CDM0Dyr_BMv-PykYmC-s-8" value="DataPlotting()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="CDM0Dyr_BMv-PykYmC-s-9" parent="1" source="o4S50jq_KAitif_074QC-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="375" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="355" y="375" />
+            </Array>
+            <mxPoint x="304.92857142857144" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
