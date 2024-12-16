@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="VLG8_q0UeuUh3ziCszn1">
-    <mxGraphModel dx="1105" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="635" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xm9gQBCulE0NQXOzr0cd-17" value="Koordinator" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#141cff;" vertex="1" parent="1">
+        <mxCell id="xm9gQBCulE0NQXOzr0cd-17" value="Koordinator" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="210" y="140" width="220" height="550" as="geometry" />
         </mxCell>
         <mxCell id="xm9gQBCulE0NQXOzr0cd-18" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;start&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xm9gQBCulE0NQXOzr0cd-17" source="xm9gQBCulE0NQXOzr0cd-19" target="xm9gQBCulE0NQXOzr0cd-20">
@@ -34,7 +34,7 @@
         <mxCell id="xm9gQBCulE0NQXOzr0cd-50" value="Pilih dan Delete Pilihan Dosen Pembimbing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="xm9gQBCulE0NQXOzr0cd-17">
           <mxGeometry x="40" y="480" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xm9gQBCulE0NQXOzr0cd-28" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#141cff;" vertex="1" parent="1">
+        <mxCell id="xm9gQBCulE0NQXOzr0cd-28" value="Sistem" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="430" y="140" width="220" height="550" as="geometry" />
         </mxCell>
         <mxCell id="xm9gQBCulE0NQXOzr0cd-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;end&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="xm9gQBCulE0NQXOzr0cd-28" source="xm9gQBCulE0NQXOzr0cd-30" target="xm9gQBCulE0NQXOzr0cd-35">
